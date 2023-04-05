@@ -1,11 +1,11 @@
 myList = ['Victor', 'Absalom', 'Arnold', 'Zuriel', 'Ezekiel']
 
 def main(alist):
-  for index, item in alist:
+  for index, item in enumerate(alist):
     print(f"{index} {_list}")
 
 if __name__ == "__main__":
-  main()
+  main(myList)
   
 # Expected Output:
 # 0 Victor
