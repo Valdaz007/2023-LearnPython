@@ -2,7 +2,7 @@ myList = ['Victor', 'Absalom', 'Arnold', 'Zuriel', 'Ezekiel']
 
 def main(alist):
   for index, item in enumerate(alist):
-    print(f"{index} {_list}")
+    print(f"{index} {item}")
 
 if __name__ == "__main__":
   main(myList)
